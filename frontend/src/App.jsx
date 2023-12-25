@@ -4,7 +4,7 @@ import axios from "axios";
 export default function App() {
   const [data, setData] = useState("");
   const getData = async () => {
-    const res = await axios.get("http://localhost:3000/getData");
+    const res = await axios.get("/api/getData");
     setData(res.data);
   };
   useEffect(() => {
