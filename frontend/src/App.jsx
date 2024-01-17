@@ -10,5 +10,5 @@ export default function App() {
   useEffect(() => {
     getData();
   }, []);
-  return <div>{data}</div>;
+  return <div></div>;
 }
