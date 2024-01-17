@@ -5,10 +5,7 @@ const Navbar = () => {
     <div>
       <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a
-            href="https://flowbite.com/"
-            class="flex items-center space-x-3 rtl:space-x-reverse"
-          >
+          <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img
               src="https://flowbite.com/docs/images/logo.svg"
               class="h-8"
@@ -40,10 +37,10 @@ const Navbar = () => {
             >
               <div class="px-4 py-3">
                 <span class="block text-sm text-gray-900 dark:text-white">
-                  Bonnie Green
+                  User Name
                 </span>
                 <span class="block text-sm  text-gray-500 truncate dark:text-gray-400">
-                  name@flowbite.com
+                  name@user.com
                 </span>
               </div>
               <ul class="py-2" aria-labelledby="user-menu-button">
@@ -146,10 +143,10 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/login"
                   class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
-                  Contact
+                  Login
                 </a>
               </li>
             </ul>
