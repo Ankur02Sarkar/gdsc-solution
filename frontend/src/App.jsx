@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Homepage from "./components/Homepage";
 
 export default function App() {
   const [data, setData] = useState("");
@@ -10,5 +11,9 @@ export default function App() {
   useEffect(() => {
     getData();
   }, []);
-  return <div></div>;
+  return (
+    <div>
+      <Homepage />
+    </div>
+  );
 }
