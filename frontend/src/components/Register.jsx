@@ -178,7 +178,7 @@ const Register = () => {
                 src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg"
                 alt="logo"
               />
-              Flowbite
+              GDSC
             </a>
             <h1 class="_9OKVeTXzfSwD_NYO6_G G_Z_YOvXu8grS0GsAGg_ P2kov_od1FPjxxII24T5 MxQqv3Z913orO6JQGGbH marR_sCaF_d1KewmkXGX wP9HMsqy6b96l2HBRbgb _amhxXWUowTlPtqMPd3N">
               Explore the world’s leading design portfolios.
